@@ -1,0 +1,28 @@
+* {
+    background-color: peachpuff;
+}
+
+#img {
+    nav-left: auto;
+    left: center;
+    margin-left: 0%;
+}
+
+.center {
+    left: 50%;
+    right: 50%;
+    align-content: center;
+    /* transform: translate(-50%,-50%); */
+
+
+}
+
+#h1 {
+    color: rgb(65, 174, 201);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* li {
+    color: blue;
+    color: tomato;
+} */
