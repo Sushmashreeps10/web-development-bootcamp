@@ -1,0 +1,42 @@
+<p>paragraph tag</p>
+
+<h1> to < </h1>
+<h2> 3,4,5,6 </h2>
+
+horizontal tag which adds line after a content.
+only the frontslash will be added
+<hr />
+
+break tag
+<br /> 
+the frontslash will be added in between the content to give a break between them.
+
+ so br tag and hr tag are void tag
+
+ordered list unorderd list
+
+
+<a> this tag is used for linking the page href and dragable elements
+
+<img> tag which is self closing tag
+
+---------------------------------------------------------------------------------------------------
+
+"CSS"
+
+CLASS = .class name
+class that can be add to many elements
+
+ID = #id name
+but id can only added to a single elementsin a HTML 
+
+* = universal selecter
+
+to center
+position = static
+
+to make circle
+border-radius = 50%
+
+
+to move left = [ jeustify-content = flex end ]
