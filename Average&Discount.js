@@ -11,3 +11,17 @@ function calAvg(arr) {
 const arr = [10, 20, 30, 40, 50];
 const average = calAvg(arr);
 console.log("Average:", average);
+
+
+// To add 10% off on every items
+
+let items = [250, 645, 300, 900, 50];
+
+let i = 0;
+for (let val of items) {  
+    let offer = val / 10;
+    items[i] = items[i] - offer;
+    console.log(`value after offer = ${items[i]}`);  
+    i++;
+}
+
