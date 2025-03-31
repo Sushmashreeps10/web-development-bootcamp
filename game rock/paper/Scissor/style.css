@@ -1,0 +1,85 @@
+#myheading {
+    background-color: rgb(241, 112, 209);
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 5rem;
+    align-items: center;
+    display: center;
+    margin: 0;
+    padding: 0;
+    line-height: 5rem;
+}
+
+.choices {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3rem;
+   margin-top: 6rem;
+
+}
+
+.ScoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+.msg-container {
+    display: flex;
+    justify-content: center;  /* ✅ Centers horizontally */
+    align-items: center;  /* ✅ Centers vertically */
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;  /* ✅ Helps in centering */
+    justify-content: center;
+    align-items: center;
+    width: fit-content;  /* ✅ Keeps the size compact */
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+#rock:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#paper:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Scissor:hover{
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
